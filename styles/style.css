@@ -40,7 +40,7 @@ header {
     background-color: rgb(231, 240, 243);     
     width: 100%;
     top: 0;   
-    padding: 2rem 2rem 0rem 0rem;
+    /* padding: 2rem 2rem 0rem 0rem; */
     align-items: center;
     gap: 10px;
     /* justify-content: space-between; */
@@ -149,8 +149,8 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
-    gap: 20px;
-    padding: 20px;
+    /* gap: 5px; */
+    padding: 5px;
     justify-content: center;
     
 }
@@ -197,7 +197,7 @@ section {
     
     background-color: rgb(231, 240, 243);
     border-radius: 5px;
-    margin: 20px;
+    margin: 10px;
     overflow: hidden;
     
 }
@@ -281,7 +281,7 @@ course-item {
 
 .course-list p.completed {
     background-color: rgb(150, 226, 64);
-    color: rgb(13, 78, 100);
+    color: rgb(0, 0, 0);
     
     
 }
