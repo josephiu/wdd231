@@ -1,7 +1,7 @@
 @media screen and (max-width: 600px) and (min-width: 320px) {
 
 
-    nav {
+    nav ul{
     display: none;
     }
 
@@ -11,8 +11,7 @@
     }
 
     
-    .hamburger{
-    
+    .hamburger{    
         display: block;
         width: 30px;
         height: 30px;
@@ -40,6 +39,56 @@
     .footer-right{
         display: block;   
     }
+
+
+
+      nav.open ul{
+        display: grid;
+        position: absolute;             
+        top: 5rem;
+        left: 0; 
+        width: 100%;
+        background-color: #48A6A7;        
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        justify-content: center; 
+        text-align: center;
+        padding: 1rem;
+        
+       
+              
+               
+    } 
+
+    nav{
+        justify-content: center;
+    
+    }
+
+
+    
+    .bar{
+        transition: .3s;
+        
+    }
+
+    .hamburger.active .bar:nth-child(1){
+        transform: rotate(45deg) translate(6px,6px);
+     }
+
+    .hamburger.active .bar:nth-child(2){
+        opacity:0;
+       
+    }
+
+    .hamburger.active .bar:nth-child(3){
+        transform: rotate(-45deg) translate(7px,-7px);
+     }
+
+
+     .aside-container{
+        grid-template-columns: 1fr;        
+        
+     }
 
 
 

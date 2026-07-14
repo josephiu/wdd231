@@ -115,3 +115,13 @@ dark.addEventListener("click", () => {
     });  
 
 
+    // Hamburger menue
+const hamburger = document.querySelector('.hamburger');
+const navLinks = document.querySelector('nav');  
+
+hamburger.addEventListener('click', () => {
+    navLinks.classList.toggle('open');
+    hamburger.classList.toggle("active");
+    // hamburger.classList.toggle('close');
+});
+

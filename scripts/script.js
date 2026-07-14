@@ -15,12 +15,6 @@ hamburger.addEventListener('click', () => {
 
 
 
-
-
-
-
-
-
 const courses = [
     {
         subject: 'CSE',
