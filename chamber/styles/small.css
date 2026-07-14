@@ -27,17 +27,11 @@ header{
     background-color:var(--secondary-color);
     padding: 1rem;
     color: black;
+    grid-template-columns: 1fr 1fr; 
     
 }
 
 
-
-
-header {
-    /* display: grid;	 */
-	grid-template-columns: 1fr 1fr; 
-     
-}
 
 
 .first-header-left{
