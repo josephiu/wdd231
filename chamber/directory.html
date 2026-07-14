@@ -19,18 +19,20 @@
 <!--fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
-
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet"> -->
+    
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         
 <!--css-->  
     <!-- <link rel="stylesheet" href="styles/normalize.css">     -->
-    <!-- <link rel="stylesheet" href="styles/base.css"> -->
-    <link rel="stylesheet" href="styles/chamberBase.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <!-- <link rel="stylesheet" href="styles/chamberBase.css"> -->
+    
     
     <link rel="icon" href="favicon.ico">
 
-    <script src="scripts/chamber.js" defer></script>
+    <script src="scripts/directory.js" defer></script>
 
 <!-- Add icon library -->
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
@@ -72,11 +74,11 @@
     <section id="allSection">
       <h1>Business Directory</h1>
       <div id="viewMenu">
-        <button id="grid"><i class="material-icons">&#xe8f0;</i></button>
-        <button id="list"><i class="material-icons">&#xe8ef;</i></button>          
+        <button id="grid"><i class="material-icons">grid_view</i></button>
+        <button id="list"><i class="material-icons">view_list</i></button>          
       </div>
       <!-- will populate this side with cards from javaScript -->
-         <div class="cardGrid"></div>      
+        <div class="gridcard"></div>      
 
     </section>
 

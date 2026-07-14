@@ -3,10 +3,8 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; 
-    
-      font-family: 'Inter', sans-serif;
-     
+    box-sizing: border-box;      
+    font-family: 'Inter', sans-serif;     
 }
 
 /* https://colorhunt.co/palette/f2efe79acbd048a6a7006a71 */
@@ -15,11 +13,10 @@
 
 :root {
     --primary-color: #F2EFE7;
-    --secondary-color: #a1c0c4;
+    --secondary-color: #b2dfe6;
     --accent1-color: #48A6A7;
-    --accent2-color: #006A71;
+    --accent2-color: #07545a;
     --accent3-color: #004044;
-
 }
 
 
@@ -29,6 +26,7 @@ header,footer {
 	/* grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); */
     background-color:var(--secondary-color);
     padding: 1rem;
+    color: black;
     
 }
 
@@ -38,15 +36,14 @@ header,footer {
 header {
     display: grid;	
 	grid-template-columns: 1fr 1fr; 
-    /* background-color: #F2EFE7; */
-    
+     
 }
 
 
 .first-header-left{
     display: flex;
-    color: var(--accent2-color);
-  /* align-self: center; */
+    
+  
 }
 
 
@@ -73,7 +70,7 @@ header {
 ul li a{
     text-decoration: none;
     text-transform: uppercase;
-    color: var(--accent2-color);
+    color: black;
     font-size: small;
     font-weight: bolder;
     
@@ -94,7 +91,6 @@ ul li a:focus{
     background-color: #cdcecd;
     color: var(--primary-color);
      text-decoration: underline;
-      
     
 }
 
@@ -120,13 +116,8 @@ nav{
 }
 
 
-.hamburger{
-  
-    /* display: block;
-     width: 30px;
-    height: 30px;
-    font-size: 1.5rem;
-    align-self: center;   */
+.hamburger{  
+   
     display: none;
   
 
@@ -160,8 +151,6 @@ footer{
     display: flex;
     gap: 2rem;
     justify-content: center;  
-
-
 }
 
 footer img{
@@ -173,11 +162,110 @@ footer img{
 .footer-right {
     display:flex;
     justify-content: flex-end;  
+
+}
+
+footer{
+    color: black;
+}
+
+
+/*  constrast */
+
+body{
+    background-color: var(--primary-color);
+    color:black;
+}
+
+main{
+    padding: 1rem; 
+}  
+
+h1{
+    text-align: center;
+    padding: 0rem 0rem 2rem 0rem;
+    
+}
+
+.h1name{
+    font-size:20px;
+    text-align: left;
+    color:var(--primary-color);
+}
+
+
+.gridcard{
+    color: var(--primary-color);
+    font-size:20px;
+    text-align: left;   
+    
+}
+
+.dark-mode main{
+    background-color: var(--accent3-color);
+    color: var(--primary-color);
+}
+
+
+
+body.dark-mode {
+    background-color: var(--accent3-color);
+    color: white;
+}
+
+h1.dark-mode{
+    color: var(--primary-color);
+    
+}
+
+.dark-mode.card-section p{
+    color: white;
 }
 
 
 
 
 
+/*Grid in dark mood */
+
+.gridcard{
+    gap:1rem;
+    display: grid; 
+}
+
+
+#viewMenu{
+    display: flex;
+    gap: 1rem;
+     padding: 0 0 2rem 0;
+     justify-content: center;
+}
+
+
+
+.cardGrid{
+    display: grid;   
+    justify-content: center;
+    gap: 2rem;    
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+     
+
+.card-section{    
+    padding: 1rem;
+    background-color: var(--accent2-color); 
+    border-radius: 2rem;    
+    justify-content: center;
+    
+}
+
+.card-section a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.card-section p{
+    font-size: 15px;    
+}
 
 

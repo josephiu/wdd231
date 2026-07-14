@@ -1,36 +1,34 @@
-const baseURL = "https://josephiu.github.io/wdd231";
 
-const linksURL = "https://josephiu.github.io/wdd231/data/members.json";
-
+const url = "https://raw.githubusercontent.com/josephiu/wdd231/refs/heads/main/chamber/data/members.json";
 
 const buttonGrid = document.querySelector("#grid");
 const buttonList= document.querySelector("#list");
-const htmlcards= document.querySelector(".cardGrid");
+const cards= document.querySelector(".gridcard");
 
 
 
 
 async function getMembersData() {
-    const response = await fetch(linksURL);
+    const response = await fetch(url);
     const data = await response.json(); 
     //refrencing the data object of the members array                                          
     displayMembers(data.companies);                                                                                    
 
-    console.log(data.companies); // temporary testing of data retreival
+    // console.log(data.companies); // temporary testing of data retreival
   
 }
   
 getMembersData();
 
 
-//build a display cards for each item in our members array 
+// //build a display cards for each item in our members array 
  const displayMembers = (members) => {
 
     members.forEach((member) => {   
 
         let card = document.createElement("section");
 
-        let cName = document.createElement("h4");
+        let cName = document.createElement("h1");
         let cLogo = document.createElement("img");
         let tele = document.createElement("p");
         let yeahJoin = document.createElement("p");
@@ -38,6 +36,9 @@ getMembersData();
         let address = document.createElement("p");
         let web = document.createElement("p")
         
+
+        card.classList.add("card-section")
+        cName.classList.add("h1name");
 
 
         //  Build the h2 content out to show the member's 
@@ -47,9 +48,6 @@ getMembersData();
         yeahJoin.textContent = `Joined year: ${member.joinYear}`;
         mLevel.textContent = `Membership level: ${member.membershipLevel}`;
         address.textContent = `${member.address}`;
-
-
-
 
         web.innerHTML = `<a href="${member.website}">${member.website}</a>`;
 
@@ -73,7 +71,7 @@ getMembersData();
 
 
 
-        htmlcards.appendChild(card);       
+        cards.appendChild(card);       
     
     });
 
@@ -81,20 +79,44 @@ getMembersData();
 
 
 
-// The togle button.
+// // The togle button.
 
 buttonGrid.addEventListener("click", () => {
 // 	// example using arrow function
-    htmlcards.classList.add("cardGrid");
-    htmlcards.classList.remove("cardList");
+    cards.classList.add("cardGrid");
+    cards.classList.remove("cardList");
  });
 
 
  buttonList.addEventListener("click", () => {
     // 	// example using arrow function
-    htmlcards.classList.add("cardList");
-    htmlcards.classList.remove("cardGrid");
-     });
+    cards.classList.add("cardList");
+    cards.classList.remove("cardGrid");
+});
     
+
+
+// colour dark mode by toggle
+const dark = document.querySelector(".contrast-icon");
+const htmlbody = document.querySelector("body");
+
+
+if (localStorage.getItem("theme") === "dark") 
+    {
+    htmlbody.classList.toggle("dark-mode");
+}
+
+
+dark.addEventListener("click", () => {
+     htmlbody.classList.toggle("dark-mode"); 
+
+    if (htmlbody.classList.contains("dark-mode")){
+        localStorage.setItem("theme", "dark")
+    }
+    else {
+        localStorage.setItem("theme", "light");
+    }
+        
+    });  
 
 
