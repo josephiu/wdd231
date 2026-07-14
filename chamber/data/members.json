@@ -5,7 +5,7 @@
             "address": "Sheikh Mohammed Bin Zayed Road, Umm Al Quwain, UAE",
             "phone_number": "+971 (0) 6 764 7272",
             "joinYear": "1987",
-            "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEYQlaeoSWNMBktJVtCvGzWbbFw7XpYGQEywARuDORoA&s=10",
+            "icon": "images/uaq_logo.png",
             "membershipLevel": "Gold",
             "website": "https://uaqftz.gov.ae"
         },
@@ -14,7 +14,7 @@
             "address": "Al Dar Al Baida, Umm Al Quwain, UAE",
             "phone_number": "+971 (0) 6 768 1555",
             "joinYear": "1995",
-            "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrb94YolCRNoDrSpBplkzoBO2rOtE6j7U6b3bYE2c1kYkw2tICJzqUPs_B&s=10",
+            "icon": "images/palma.jpg",
             "membershipLevel": "Silver",
             "website": "https://www.palmabeachuaq.com"
         },
@@ -23,7 +23,7 @@
             "address": "Al Raas, Umm Al Quwain, UAE",
             "phone_number": "+971 (0) 6 766 6647",
             "joinYear": "1992",
-            "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbWdxbL-NDCp5Zp7G2yF3xo1kX8SP6HFePHCPIuGr88A&s",
+            "icon": "images/marine.jpg",
             "membershipLevel": "Gold",
             "website": "https://uaqmarineclub.com"
         },
@@ -32,7 +32,7 @@
             "address": "Khor Al Beidah, Umm Al Quwain, UAE",
             "phone_number": "+971 (0) 6 768 1311",
             "joinYear": "1998",
-            "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRto6Y-FTbiCSUlTq9Ku2u9TPDxhdgyX5C0zFf7vcMEtg&s=10",
+            "icon": "images/barracuda.jpg",
             "membershipLevel": "Silver",
             "website": "https://barracudabeachresort.com"
         },
@@ -41,7 +41,7 @@
             "address": "King Faisal Street, Umm Al Quwain, UAE",
             "phone_number": "+971 (0) 6 765 1117",
             "joinYear": "1977",
-            "icon": "https://d1l8km4g5s76x5.cloudfront.net/Production/exb_doc/2041/48393/thumb_2041_48393_47484_9598.png/fit-in/300x300",
+            "icon": "images/uaqc.png",
             "membershipLevel": "Gold",
             "website": "https://uaqchamber.com"
         },
@@ -50,7 +50,7 @@
             "address": "Al Khor Waterfront, Umm Al Quwain, UAE",
             "phone_number": "+971 (0) 6 706 3999",
             "joinYear": "2021",
-            "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf6bzOdRQgvZpFt_oc9rk7WTsInnJNbefzva0QN21vAg&s=10",
+            "icon": "images/vida.jpg",
             "membershipLevel": "Bronze",
             "website": "https://www.vidahotels.com"
         },
