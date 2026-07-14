@@ -20,7 +20,7 @@
 }
 
 
-header,footer {
+header{
     display: grid;
 	grid-gap: 0.5rem;
 	/* grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); */
@@ -34,7 +34,7 @@ header,footer {
 
 
 header {
-    display: grid;	
+    /* display: grid;	 */
 	grid-template-columns: 1fr 1fr; 
      
 }
@@ -127,11 +127,14 @@ nav{
 
 
 
+
 footer{
     display: flex;
     gap: 2rem;
     /* flex-wrap: wrap; */
+    background-color:var(--secondary-color);
     
+    color: black;
     
 	/* grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); */
 
@@ -165,9 +168,9 @@ footer img{
 
 }
 
-footer{
+/* footer{
     color: black;
-}
+} */
 
 
 /*  constrast */
@@ -197,7 +200,9 @@ h1{
 .gridcard{
     color: var(--primary-color);
     font-size:20px;
-    text-align: left;   
+    text-align: left;  
+    gap:1rem;
+    display: grid;  
     
 }
 
@@ -228,10 +233,7 @@ h1.dark-mode{
 
 /*Grid in dark mood */
 
-.gridcard{
-    gap:1rem;
-    display: grid; 
-}
+
 
 
 #viewMenu{

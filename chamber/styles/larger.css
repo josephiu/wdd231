@@ -53,8 +53,7 @@
         justify-content: center; 
         text-align: center;
         padding: 1rem;
-        
-       
+             
               
                
     } 
@@ -85,10 +84,7 @@
      }
 
 
-     .aside-container{
-        grid-template-columns: 1fr;        
-        
-     }
+     
 
 
 
