@@ -59,7 +59,7 @@
             "address": "Sheikh Ahmed Bin Rashid Al Mualla Road, Umm Al Quwain, UAE",
             "phone_number": "+971 (0) 6 768 1888",
             "joinYear": "1997",
-            "icon": "./images/dreamland.png",        
+            "icon": "../images/dreamland.png",        
             "membershipLevel": "Bronze",
             "website": "https://www.dreamlanduae.com"
         }
