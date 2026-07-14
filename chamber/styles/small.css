@@ -1,0 +1,183 @@
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    
+      font-family: 'Inter', sans-serif;
+     
+}
+
+/* https://colorhunt.co/palette/f2efe79acbd048a6a7006a71 */
+
+
+
+:root {
+    --primary-color: #F2EFE7;
+    --secondary-color: #a1c0c4;
+    --accent1-color: #48A6A7;
+    --accent2-color: #006A71;
+    --accent3-color: #004044;
+
+}
+
+
+header,footer {
+    display: grid;
+	grid-gap: 0.5rem;
+	/* grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); */
+    background-color:var(--secondary-color);
+    padding: 1rem;
+    
+}
+
+
+
+
+header {
+    display: grid;	
+	grid-template-columns: 1fr 1fr; 
+    /* background-color: #F2EFE7; */
+    
+}
+
+
+.first-header-left{
+    display: flex;
+    color: var(--accent2-color);
+  /* align-self: center; */
+}
+
+
+
+
+
+.first-header-left span{
+    font-weight: bolder;
+    align-self: center;
+    text-transform: uppercase;
+}
+
+
+
+.first-header-right{
+    display: flex;
+    gap: 1rem;
+    align-content: center;
+    justify-content: right;
+}
+
+
+
+ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--accent2-color);
+    font-size: small;
+    font-weight: bolder;
+    
+    
+}
+
+
+ul li:active
+{
+    text-decoration: underline;
+    /* color: var(--primary-color); */
+
+}
+
+
+ul li:hover,
+ul li a:focus{
+    background-color: #cdcecd;
+    color: var(--primary-color);
+     text-decoration: underline;
+      
+    
+}
+
+ul li{
+   list-style: none; 
+   padding: 0.5rem;
+   border-radius: 2rem;
+
+}
+
+nav ul{
+    display: flex;
+    gap: 1rem;
+    /* align-items: center; */
+}
+
+nav{
+    align-content: center;
+}
+
+.contrast-icon{
+    align-content: center;
+}
+
+
+.hamburger{
+  
+    /* display: block;
+     width: 30px;
+    height: 30px;
+    font-size: 1.5rem;
+    align-self: center;   */
+    display: none;
+  
+
+}
+
+
+
+
+
+footer{
+    display: flex;
+    gap: 2rem;
+    /* flex-wrap: wrap; */
+    
+    
+	/* grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); */
+
+}
+
+.footer-left, 
+.footer-middle, 
+.footer-right{
+    width: 100%;
+    font-size: small;
+    
+}
+
+
+
+.footer-middle{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;  
+
+
+}
+
+footer img{
+    width: 30px;
+    height: 30px;
+}
+
+
+.footer-right {
+    display:flex;
+    justify-content: flex-end;  
+}
+
+
+
+
+
+
+

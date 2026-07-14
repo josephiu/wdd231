@@ -1,0 +1,24 @@
+{
+    "family_name": "Joseph",
+    "date_moved_in": "2024-06-24",
+    "number_of_people": 5,
+    "visited_by_bishopric": true,
+    "individual_family_member": [
+        {
+            "name": "Mike Kanu",
+            "gender": "Male",
+            "birth_date": "2024-05-16"
+        },
+          {
+            "name": "Grace Kanu",
+            "gender": "Female",
+            "birth_date": "2019-09-28"
+        },
+          {
+            "name": "Jude Kanu",
+            "gender": "Male",
+            "birth_date": "2002-04-17"
+        }           
+           
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "companies": [ 
+        {
+            "company_name": "Broadway Entertainment Group",
+            "address":    "41006, Marasi Drive Street, Business Bay, Dubai, UAE" ,
+            "phone_number": "+971 (0) 4 447 4919",
+            "joinYear": "1998",
+            "icon": "images/directory_image/broadway.webp",
+            "membershipLevel": "Silver",
+            "website":"https://www.broadwayentertainmentgroup.com"        
+
+
+
+        },
+        {
+            "company_name": "Atlantic Amusements Inc. ",
+            "address":    "95, Al fahidi Street, New City, Abu Dhabi, UAE" ,
+            "phone_number": "+971 (0) 5 458 4194",
+            "joinYear": "1988",
+            "icon": "images/directory_image/atlantic.webp",
+            "membershipLevel": "Gold",
+            "website":"http://www.atlanticamusements.ie/"        
+
+
+
+        },
+        {
+            "company_name": "CentralArts Innovations. ",
+            "address":    "10, Al Hamdam Road, Computer City, Abu Dhabi, UAE" ,
+            "phone_number": "+971 (0) 2 658 3024",
+            "joinYear": "2000",
+            "icon": "images/directory_image/centralculturinnovation.webp",
+            "membershipLevel": "Gold",
+            "website":"http://www.centralartsinnovations.com/"        
+
+
+        },
+        {
+            "company_name": "CityLights Entertainment Corp.",
+            "address":    "80, Al Nadam Road, Dubai, UAE" ,
+            "phone_number": "+971 (0) 6 675 0526",
+            "joinYear": "1890",
+            "icon": "images/directory_image/citylights.webp",
+            "membershipLevel": "Bronze",
+            "website":"http://www.citylightsentertainment.com/"        
+
+
+        },
+        {
+            "company_name": "CultureHub Enterprises.",
+            "address":    "101, Emirate Road, Dubai, UAE" ,
+            "phone_number": "+971 (0) 2 112 5466",
+            "joinYear": "1963",
+            "icon": "images/directory_image/culturhub.webp",
+            "membershipLevel": "Bronze",
+            "website":"https://www.culturehub.org//"   
+
+
+        },
+        {
+            "company_name": "Golden Gate Entertainment Co.",
+            "address":    "96, Al Abaza Road, Dubai, UAE" ,
+            "phone_number": "+971 (0) 4 654 5784",
+            "joinYear": "1997",
+            "icon": "images/directory_image/goldengateentertainment.webp",
+            "membershipLevel": "Bronze",
+            "website":"https://www.goldengate-entertainment.com/"
+
+        },
+        {
+            "company_name": "Lakeside Amusements Corporation.",
+            "address":    "24b, Al Suzan Street, Abu Dhabi, UAE" ,
+            "phone_number": "+971 (0) 2 159 7413",
+            "joinYear": "1981",
+            "icon": "images/directory_image/lakeside.webp",
+            "membershipLevel": "Free",
+            "website":"https://www.lakesideamusementpark.com/"
+        }
+
+    ]
+}
