@@ -5,7 +5,7 @@
             "address": "Sheikh Mohammed Bin Zayed Road, Umm Al Quwain, UAE",
             "phone_number": "+971 (0) 6 764 7272",
             "joinYear": "1987",
-            "icon": "images/directory_image/uaqftz.webp",
+            "icon": "https://logo.clearbit.com/uaqftz.gov.ae",
             "membershipLevel": "Gold",
             "website": "https://uaqftz.gov.ae"
         },
@@ -14,7 +14,7 @@
             "address": "Al Dar Al Baida, Umm Al Quwain, UAE",
             "phone_number": "+971 (0) 6 768 1555",
             "joinYear": "1995",
-            "icon": "images/directory_image/palma.webp",
+            "icon": "https://logo.clearbit.com/palmabeachuaq.com",
             "membershipLevel": "Silver",
             "website": "https://www.palmabeachuaq.com"
         },
@@ -23,7 +23,7 @@
             "address": "Al Raas, Umm Al Quwain, UAE",
             "phone_number": "+971 (0) 6 766 6647",
             "joinYear": "1992",
-            "icon": "images/directory_image/marineclub.webp",
+            "icon": "https://logo.clearbit.com/uaqmarineclub.com",
             "membershipLevel": "Gold",
             "website": "https://uaqmarineclub.com"
         },
@@ -32,7 +32,7 @@
             "address": "Khor Al Beidah, Umm Al Quwain, UAE",
             "phone_number": "+971 (0) 6 768 1311",
             "joinYear": "1998",
-            "icon": "images/directory_image/barracuda.webp",
+            "icon": "https://logo.clearbit.com/barracudabeachresort.com",
             "membershipLevel": "Silver",
             "website": "https://barracudabeachresort.com"
         },
@@ -41,7 +41,7 @@
             "address": "King Faisal Street, Umm Al Quwain, UAE",
             "phone_number": "+971 (0) 6 765 1117",
             "joinYear": "1977",
-            "icon": "images/directory_image/chamber.webp",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/8/84/Umm_Al_Quwain_emblem.png",
             "membershipLevel": "Gold",
             "website": "https://uaqchamber.com"
         },
@@ -50,7 +50,7 @@
             "address": "Al Khor Waterfront, Umm Al Quwain, UAE",
             "phone_number": "+971 (0) 6 706 3999",
             "joinYear": "2021",
-            "icon": "images/directory_image/vida.webp",
+            "icon": "https://logo.clearbit.com/vidahotels.com",
             "membershipLevel": "Bronze",
             "website": "https://www.vidahotels.com"
         },
@@ -59,7 +59,7 @@
             "address": "Sheikh Ahmed Bin Rashid Al Mualla Road, Umm Al Quwain, UAE",
             "phone_number": "+971 (0) 6 768 1888",
             "joinYear": "1997",
-            "icon": "images/directory_image/dreamland.webp",
+            "icon": "https://logo.clearbit.com/dreamlanduae.com",
             "membershipLevel": "Bronze",
             "website": "https://www.dreamlanduae.com"
         }
