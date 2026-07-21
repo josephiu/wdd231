@@ -144,8 +144,8 @@ h1 {
     /* grid-template-columns: span 3; */
     text-align: left;    
     font-size: 2rem;
-    margin-top: 20px;
-    margin-left: 20px;
+    padding: 2rem;
+    
     background-color: aliceblue;
 
     /* color: black; */
@@ -157,10 +157,7 @@ h1 {
 }
 
 
-
-
-
-    
+   
 
 
 .aside1, .aside2 {
@@ -311,11 +308,7 @@ course-item {
 }
 
 
-.social-media-icons svg {
-    width: 40px;
-    height: 40px;
-    
-}
+
 
 footer {
     background-color: rgb(13, 78, 100);
@@ -339,9 +332,14 @@ footer {
 
 
     header {
-        display: flex;
+        display: grid;
+        grid-template-rows: 1fr auto;
+        grid-template-columns: 1fr auto ;
         /* flex-direction: row; */
         padding: 1rem ;
+        /* grid-template-areas:
+         "header-container hamburger"
+         "open open "; */
         
         align-items: center;
 
@@ -349,9 +347,13 @@ footer {
         /* justify-content: space-between; */
     }
 
+    
+
     .logo span {
         font-size: 1rem;
     }
+
+   
 
     .hamburger {
         display: block;
@@ -381,16 +383,15 @@ footer {
       
     } 
 
-    
+    .open{
+        grid-column: span 2;
+        width: 100%;
+    }
 
-   
+
 
     nav.open ul{
         display: block;
-        position: absolute;             
-        top: 5rem;
-        left: 0; 
-        width: 100%;
         background-color: rgb(13, 78, 100);        
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
               
@@ -425,6 +426,7 @@ footer {
 
     main{
         display: inline;
+    
     }
 
 
