@@ -1,5 +1,56 @@
 @media screen and (max-width: 600px) and (min-width: 320px) {
 
+    
+    header {
+        display: grid;
+        
+        grid-template-rows: 1fr auto;
+        grid-template-columns: 1fr 1fr auto auto;
+        /* flex-direction: row; */
+        padding: 1rem 1rem 0rem 0rem ;
+         grid-template-areas:
+         "logo logo contrast menu"
+         "navi navi navi navi";
+        
+        align-items: center;
+
+
+        
+        /* justify-content: space-between; */
+    }
+
+    .first-header-left{
+        grid-area: logo;
+    }
+
+     .contrast-icon{
+        grid-area: contrast;
+    }
+
+    
+     .hamburger{
+        grid-area: menu;
+    }
+
+    .open{
+        grid-area: navi;
+            
+    }
+
+
+    .cardList section{    
+    grid-template-columns:  1fr     
+           
+    }
+
+    .cardList section h1{
+        
+        justify-self:center;
+        text-align: center;   
+    }
+    
+   
+
 
     nav ul{
     display: none;
@@ -43,25 +94,25 @@
 
 
       nav.open ul{
-        display: grid;
-        position: absolute;             
-        top: 5rem;
-        left: 0; 
-        width: 100%;
+        display: grid;                
+        
         background-color: #48A6A7;        
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-        justify-content: center; 
-        text-align: center;
+         justify-content: center; 
+        text-align: center; 
         padding: 1rem;
              
               
                
     } 
 
-    nav{
-        justify-content: center;
+     /* .open{
+        grid-column: span 4;
+        width: 100%;
+    } */
+
+   
     
-    }
 
 
     

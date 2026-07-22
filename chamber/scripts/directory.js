@@ -45,8 +45,8 @@ getCompaniesData();
 
         cName.textContent = `${company.company_name}`; 
         tele.textContent = `${company.phone_number}`;
-        yeahJoin.textContent = `Joined year: ${company.joinYear}`;
-        mLevel.textContent = `Membership level: ${company.membershipLevel}`;
+        yeahJoin.innerHTML = `<strong>${company.joinYear}</strong> | <strong>${company.membershipLevel}</strong>`;
+        // mLevel.innerHTML = `<strong>${company.membershipLevel}</strong>`;
         address.textContent = `${company.address}`;
 
         web.innerHTML = `<a href="${company.website}">${company.website}</a>`;
@@ -56,13 +56,14 @@ getCompaniesData();
         cLogo.setAttribute("alt",`Logo of ${company.company_name}`);
         cLogo.setAttribute('loading', 'lazy');
         cLogo.setAttribute('width', '150');
-        cLogo.setAttribute('height', '150');
+        cLogo.setAttribute('height', '100');   
+        
 
 
         card.appendChild(cLogo);
         card.appendChild(cName);
         card.appendChild(yeahJoin);
-        card.appendChild(mLevel);
+        // card.appendChild(mLevel);
         card.appendChild(tele);
         card.appendChild(address);
         card.appendChild(web);
