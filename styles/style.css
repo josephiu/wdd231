@@ -99,6 +99,8 @@ nav ul li {
 }
 
 
+
+
 .nav-link a {
     display: block;
     padding: 1rem;
@@ -122,8 +124,17 @@ nav ul li {
     color: rgb(255, 255, 255);    
     /* transition: all 0.8s; */
     
-    background-color: #444;
+    background-color: #575555;
 
+}
+
+
+#active_page {
+    background-color: #444;  
+
+}
+#active_page a{
+    text-decoration: underline;
 }
 
 

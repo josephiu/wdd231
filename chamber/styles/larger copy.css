@@ -7,18 +7,17 @@
         grid-template-rows: 1fr auto;
         grid-template-columns: 1fr 1fr auto auto;
         /* flex-direction: row; */
-        padding: 1rem 0rem 0rem 0rem ;
+        padding: 1rem 1rem 0rem 0rem ;
          grid-template-areas:
          "logo logo contrast menu"
          "navi navi navi navi";
         
-        align-items: center;        
+        align-items: center;
+
+
+        
         /* justify-content: space-between; */
-        gap:0.5rem;
-    }  
-   
-
-
+    }
 
     .first-header-left{
         grid-area: logo;
@@ -31,7 +30,6 @@
     
      .hamburger{
         grid-area: menu;
-        padding-right: 1rem;
     }
 
     .open{
@@ -90,15 +88,13 @@
     }
 
     .footer-right{
-        display: block; 
-        
+        display: block;   
     }
 
 
 
       nav.open ul{
-        display: grid;   
-        width: 100%;     
+        display: grid;                
         
         background-color: #48A6A7;        
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
@@ -114,6 +110,11 @@
         grid-column: span 4;
         width: 100%;
     } */
+
+   
+    
+
+
     
     .bar{
         transition: .3s;
@@ -132,23 +133,6 @@
     .hamburger.active .bar:nth-child(3){
         transform: rotate(-45deg) translate(7px,-7px);
      }
-
-
-
-     /* ***Home** */
-
-
-     .service_container{        
-        /* display: grid; */
-        display: block;
-
-     }  
-
-     .weather-n-map{        
-        /* display: grid; */
-        display: block;
-
-     }  
 
 
      
