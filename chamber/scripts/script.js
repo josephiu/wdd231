@@ -18,7 +18,7 @@ async function getCompaniesData() {
                                            
     displayCompanies(shuffledCompany);                                                                                    
 
-    console.log(data.companies)
+    // console.log(data.companies)
     
   
 }
@@ -78,9 +78,9 @@ getCompaniesData();
         card.appendChild(web);
         cards.appendChild(card);       
     
-    }
-    else{
-        alert("Thee is no gold or silver")
+    // }
+    // else{
+    //     alert("Thee is no gold or silver")
     }
 });
 
@@ -183,7 +183,7 @@ function displayWeather(apiData) {
             allForecast[date][0]
     }));
 
-    console.log(fourDaysData);
+    // console.log(fourDaysData);
     // console.log(allForecast);
 
     const weatherContainer = document.querySelector(".weather")
@@ -250,16 +250,17 @@ function displayWeather(apiData) {
         // here am creting html elements for the cards as i need
         // today
         const weatherIcon1 = document.createElement("img")
-        const weatherTemp1= document.createElement("h4")    
+        const weatherTemp1= document.createElement("p")    
         const weatherDecription1 = document.createElement("p")
         const weatherDate1 = document.createElement("p")
 
+        weatherTemp1.classList.add("tempBig");
 
-        weatherTemp1.innerText = `${temp1}°C`;
+        weatherTemp1.innerHTML = `<strong>${temp1}°C<strong>`;
         weatherDecription1.innerText = description1;
 
         weatherIcon1.src = `https://openweathermap.org/img/wn/${icon1}@2x.png`;
-        weatherIcon1alt = description1;
+        weatherIcon1.alt = description1;
 
        
         weatherDate1.innerHTML = `<strong>${weatherDateFormated(date1)}</strong>`;
@@ -377,9 +378,9 @@ function displayWeather(apiData) {
 
 
     }
-    else{
-        alert("Three Days is not in the list")
-    }
+    // else{
+    //     alert("Three Days is not in the list")
+    // }
 
      
 };

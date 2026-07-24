@@ -12,9 +12,6 @@ hamburger.addEventListener('click', () => {
 
 
 
-
-
-
 const courses = [
     {
         subject: 'CSE',
@@ -115,9 +112,19 @@ function displayCourses(filteredCourses) {
             courseItem.classList.add('completed');
         }
         courseItem.textContent = `${course.subject}  ${course.number}`;
-        courselist.appendChild(courseItem);
+        courselist.appendChild(courseItem);    
+
+        courseItem.addEventListener('click', () => {
+             displayCourseDetails(course);
+            });
+
         
-        });
+        
+    
+    });
+        
+        
+        
 
         // calculate total credits for filtered courses
     const credits = filteredCourses.reduce((sum, course) => sum + course.credits, 0);   
@@ -147,6 +154,34 @@ filterSelect3.addEventListener("click", function() {
     const filteredCourses = courses.filter(course => course.subject === "WDD");
     displayCourses(filteredCourses);
 });
+
+
+
+function displayCourseDetails(course) {
+
+  const courseDetails =  document.querySelector("#course-details")
+
+  courseDetails.innerHTML = '';
+  courseDetails.innerHTML = `
+    <button id="closeModal">❌</button>
+    <h2>${course.subject} ${course.number}</h2>
+    <h3>${course.title}</h3>
+    <p><strong>Credits</strong>: ${course.credits}</p>
+    <p><strong>Certificate</strong>: ${course.certificate}</p>
+    <p>${course.description}</p>
+    <p><strong>Technologies</strong>: ${course.technology.join(', ')}</p>
+  `;
+  courseDetails.showModal();
+  
+  closeModal.addEventListener("click", () => {
+    courseDetails.close();
+  });
+}
+
+ 
+
+
+
 
 
 
