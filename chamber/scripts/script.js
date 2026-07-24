@@ -18,7 +18,8 @@ async function getCompaniesData() {
                                            
     displayCompanies(shuffledCompany);                                                                                    
 
-    // console.log(data.companies); // temporary testing of data retreival
+    console.log(data.companies)
+    
   
 }
   
@@ -28,7 +29,11 @@ getCompaniesData();
 // //build a display cards for each item in our members array 
  const displayCompanies=(companies) => {
 
-    companies.forEach((company) => {   
+    //check to see if the companies are either Gold or Silver
+    companies.forEach((company) => { 
+        if (company.membershipLevel === "Gold" || company.membershipLevel === "Silver") {
+    // make cards
+  
 
         let card = document.createElement("section");
 
@@ -73,7 +78,11 @@ getCompaniesData();
         card.appendChild(web);
         cards.appendChild(card);       
     
-    });
+    }
+    else{
+        alert("Thee is no gold or silver")
+    }
+});
 
 }
 

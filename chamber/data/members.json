@@ -62,6 +62,62 @@
             "icon": "images/dreamland.png",        
             "membershipLevel": "Bronze",
             "website": "https://www.dreamlanduae.com"
+        },
+
+
+        {
+            "company_name": "Pearl Hotel & Spa",
+            "address": "Sheikh Ahmed Bin Rashid Al Mualla Road, Umm Al Quwain, UAE",
+            "phone_number": "+971 (0) 6 766 6678",
+            "joinYear": "2001",
+            "icon": "images/pearl.jpg",
+            "membershipLevel": "Gold",
+            "website": "https://www.pearlhoteluaq.com"
+        },
+        {
+            "company_name": "The Beach Hotel Umm Al Quwain",
+            "address": "Al Khor, Umm Al Quwain, UAE",
+            "phone_number": "+971 (0) 6 766 6644",
+            "joinYear": "1994",
+            "icon": "images/beachhotel.png",
+            "membershipLevel": "Gold",
+            "website": "https://www.thebeachhoteluaq.com"
+        },
+        {
+            "company_name": "Umm Al Quwain Port",
+            "address": "Al Raas Port Area, Umm Al Quwain, UAE",
+            "phone_number": "+971 (0) 6 766 5555",
+            "joinYear": "1985",
+            "icon": "images/portuaq.png",
+            "membershipLevel": "Gold",
+            "website": "https://uaqport.gov.ae"
+        },
+        {
+            "company_name": "Royal Residence Hotel Apartments",
+            "address": "King Faisal Street, Umm Al Quwain, UAE",
+            "phone_number": "+971 (0) 6 767 0111",
+            "joinYear": "2008",
+            "icon": "images/royalresidence.png",
+            "membershipLevel": "Silver",
+            "website": "https://www.royalresidenceuaq.com"
+        },
+        {
+            "company_name": "Flamingo Beach Hotel",
+            "address": "Al Ghub Street, Umm Al Quwain, UAE",
+            "phone_number": "+971 (0) 6 766 7766",
+            "joinYear": "1999",
+            "icon": "images/flamingo.jpg",
+            "membershipLevel": "Silver",
+            "website": "https://www.flamingobeachuaq.com"
+        },
+        {
+            "company_name": "UAQ National Museum",
+            "address": "Old Fort, Al Ali, Umm Al Quwain, UAE",
+            "phone_number": "+971 (0) 6 765 0888",
+            "joinYear": "1990",
+            "icon": "images/visituqn.jpg",
+            "membershipLevel": "Silver",
+            "website": "https://visituaq.ae"
         }
     ]
 }
