@@ -1,5 +1,41 @@
+// thanks page/
+
+const getformDetails = new URLSearchParams(window.location.search)
+
+const formatted = new Date(getformDetails.get("datetime")).toLocaleString("en-AE", {
+  dateStyle: "long",
+  timeStyle: "short"
+});
+
+
+
+
+document.querySelector('#results').innerHTML = `
+<p>Applicaion for <strong>  ${getformDetails.get("first")} ${getformDetails.get("last")} </strong></p>
+<p>Organization Tittle: <strong>  ${getformDetails.get("organization-title")} </strong></p>
+<p>Phone Number: <strong>  ${getformDetails.get("phone")}</strong></p>
+<p>Email Address: <strong>  ${getformDetails.get("email")}</strong></p>
+<p>Business/Organaization: <strong>  ${getformDetails.get("organization")}</strong></p>
+<p>membership Level: <strong>  ${getformDetails.get("membershiplevel")}</strong></p>
+<p>Date and Time Loaded: <strong>  ${formatted}</strong></p>`
+
+const timeStamp = document.querySelector("#datetime")
+timeStamp.value = new Date().toISOString();
+
+
+
+
+
+
+
+
+
 
 const url = "https://raw.githubusercontent.com/josephiu/wdd231/refs/heads/main/chamber/data/members.json";
+
+
+
+
 
 const buttonGrid = document.querySelector("#grid");
 const buttonList= document.querySelector("#list");
@@ -144,7 +180,7 @@ async function getWeatherData(weatherapi) {
     const response = await fetch(weatherapi);
     const data = await response.json(); 
 
-    console.log(data);      // Inspect the raw API response
+    // console.log(data);      // Inspect the raw API response
     displayWeather(data);
                                                                                    
 

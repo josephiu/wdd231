@@ -1,3 +1,5 @@
+const { useLayoutEffect } = require("react");
+
 document.getElementById("lastModified").innerHTML = document.lastModified;
 
 const hamburger = document.querySelector('.hamburger');
@@ -179,6 +181,7 @@ function displayCourseDetails(course) {
 }
 
  
+
 
 
 

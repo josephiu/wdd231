@@ -31,7 +31,9 @@
     
     <link rel="icon" href="favicon.ico">
 
-    <script src="scripts/script.js" defer></script>
+    <!-- <script src="scripts/script.js" defer></script> -->
+    <script src="scripts/join.js" defer></script>
+
     <!-- <script src="scripts/weather.js" ></script> -->
 
 <!-- Add icon library -->
@@ -76,10 +78,10 @@
                 <form method="GET" action="thankyou.html" class="designOne">
                     <label>First Name <input type="text" name="first" required autocomplete="given-name" title="Your First Name"></label>
                     <label>Last Name <input type="text" name="last" required autocomplete="family-name" title="Your Last Name"></label>
-                    <label>Phone <input type="tel" name="phone" required autocomplete="tel" title="A Phone Number with dashes" placeholder="987-555-1234" ></label>
-                    <label>Email <input type="email" name="email" required placeholder="john89@gmail.com"  title="Your Email" autocomplete="email"></label>
                     <label>Organizational tittle <input type="text" name="organization-title" required  title="organization-title" autocomplete="organization-title" pattern="[A-Za-z\s-]{7,}" placeholder="Alphabets, spaces and hypenes only"></label>
-                    <label>Business/Organization's name <input type="text" name="organization" required placeholder="john89@gmail.com"  title="organization" autocomplete="organization"></label>
+                    <label>Phone <input type="tel" name="phone" required autocomplete="tel" title="A Phone Number with dashes" placeholder="052-675-8826" ></label>
+                    <label>Email <input type="email" name="email" required placeholder="john89@gmail.com"  title="Your Email" autocomplete="email"></label>
+                    <label>Business/Organization's name <input type="text" name="organization" required placeholder="your Business name"  title="organization" autocomplete="organization"></label>
             
 
                     <fieldset>
@@ -91,17 +93,16 @@
                     </fieldset>
                     
                     
-                    <fieldset>
-                        <legend class="timestamp">Time Stamp</legend>
-                        <label class="section2" >Form Loaded on<input type="hidden" id="datetime" name="datetime"></label>
-                        
-                    </fieldset>
+                     
+                    <label class="textAreaLabel" for="description">Description</label>
+                    <textarea id="description"  name="description"  rows="5" ></textarea>
+                    
+                    
+                    
+                    <label><input type="hidden" id="datetime" name="datetime"></label>
+                   
 
-                    <fieldset>
-                        <label class="section2" for="description">Description</label>
-                        <textarea id="description"  name="description"  rows="5" cols="40"></textarea>
-
-                    </fieldset>
+                   
 
                     <input type="submit" value="Join us">
                 </form>

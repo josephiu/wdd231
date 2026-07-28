@@ -777,12 +777,21 @@ form{
 
 form label {
       display: block;
-      font-size: 20px;
+      font-size: 16px;
        color: rgb(5, 41, 18);   
       border-radius: 5rem;
       width: 100%;
       
     }
+
+
+form textarea{
+    width: 100%;
+    border-radius: 0.5rem;
+    padding: 1rem;;
+    
+}
+
 
 
  form input[type=text],
@@ -855,8 +864,30 @@ form fieldset{
     border-bottom-left-radius: 2rem;
     border-top-right-radius: 2rem; 
     border-bottom-right-radius: 0.5rem;
-    /* box-shadow: 2 0 1rem #777; */
+     opacity: 0;
+    animation: fadeUp .6s ease forwards;
 }
+
+
+
+
+.memberInfo div:nth-child(1) { animation-delay: .1s; }
+.memberInfo div:nth-child(2) { animation-delay: .3s; }
+.memberInfo div:nth-child(3) { animation-delay: .5s; }
+.memberInfo div:nth-child(4) { animation-delay: .7s; }
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
 
 .memberInfo div p{
     background-color: #c9d6d5;    
@@ -887,6 +918,13 @@ form fieldset{
     animation: bounce 0.4s ease;
    
 }
+
+
+.memberInfo div {
+    transition: transform .3s ease, box-shadow .3s ease;
+}
+
+
 
 
 
@@ -924,3 +962,23 @@ dialog button {
   border: 1px solid rgb(0 0 0 / 10%);
 }
 
+
+/* Thankyou page */
+
+#results{
+    place-self: center;
+    text-align: center;
+    padding: 1rem;    
+  background-color: #fff;
+  color: #000000;
+  box-shadow: 0 0 3rem #777;
+  border-radius: 2rem;
+  border: solid #07545a 1rem;
+margin-bottom: 1rem;
+
+      
+}
+
+#results p{
+    margin-bottom: 1rem;
+}
