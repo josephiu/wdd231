@@ -420,7 +420,7 @@ npButton.addEventListener("click", () => {
 });
 
 
-bronzeButton.addEventListener("click", () => {
+brozeButton.addEventListener("click", () => {
     dialogBox.showModal();
     dialogBoxText.innerHTML =`Cost AED 100 monthly: Bronze level have access to all Non proift benefits plus free trainigns, and 30% discount on all 
     your inportations`
@@ -441,5 +441,4 @@ goldButton.addEventListener("click", () => {
 closeButton.addEventListener("click", () => {
     dialogBox.close();
 });
-
 
