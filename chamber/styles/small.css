@@ -866,6 +866,7 @@ form fieldset{
     border-bottom-right-radius: 0.5rem;
      opacity: 0;
     animation: fadeUp .6s ease forwards;
+    transition: transform .3s ease, box-shadow .3s ease;
 }
 
 
@@ -918,12 +919,6 @@ form fieldset{
     animation: bounce 0.4s ease;
    
 }
-
-
-.memberInfo div {
-    transition: transform .3s ease, box-shadow .3s ease;
-}
-
 
 
 
