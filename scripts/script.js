@@ -1,4 +1,4 @@
-const { useLayoutEffect } = require("react");
+// const { useLayoutEffect } = require("react");
 
 document.getElementById("lastModified").innerHTML = document.lastModified;
 
@@ -118,9 +118,7 @@ function displayCourses(filteredCourses) {
 
         courseItem.addEventListener('click', () => {
              displayCourseDetails(course);
-            });
-
-        
+            });       
         
     
     });
