@@ -1,3 +1,7 @@
+import {url} from "./attractions.mjs"
+console.log(url)
+
+
 import {attraction} from "./attractions.mjs"
 console.log(attraction)
 
@@ -66,3 +70,4 @@ hamburger.addEventListener('click', () => {
 
 
 
+// images/ajman_corneche.webp

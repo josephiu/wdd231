@@ -1,3 +1,4 @@
+export const url = "https://github.com/josephiu/wdd231/edit/main/chamber/"
 
 export const attraction = [
   {   
@@ -8,7 +9,7 @@ export const attraction = [
     address: "Sheikh Rashid Bin Saeed Street (Airport Road), Al Rawdah, Abu Dhabi, United Arab Emirates.",
     emirate: "Abu Dhabi",
     city: "Abu Dhabi",
-    image_url: "/image/sheikh-zayed-grand-Mosque.webp",
+    image_url: "image/sheikh-zayed-grand-Mosque.webp",
     amount: 0
   },
    {
@@ -19,7 +20,7 @@ export const attraction = [
     address: "Al Barsha South 3, Dubailand, Dubai, United Arab Emirates",    
     emirate: "Dubai",
     city: "Dubai",
-    image_url: "/images/miracle_garden.webp",    
+    image_url: "images/miracle_garden.webp",    
     amount: 95
   },
   {
@@ -30,7 +31,7 @@ export const attraction = [
     address: "Atlantis, The Palm, Crescent Road, Palm Jumeirah, Dubai, United Arab Emirates",
     emirate: "Dubai",
     city: "Dubai",
-    image_url: "/images/atlantis-palm.webp",
+    image_url: "images/atlantis-palm.webp",
     amount: 350
   }, 
 
@@ -42,7 +43,7 @@ export const attraction = [
     address:"Al Bustan, Ajman, United Arab Emirates",
     emirate: "Ajman",
     city: "Ajman",
-    image_url: "/images/ajman_musuem.webp",
+    image_url: "images/ajman_musuem.webp",
     amount: 5
   },
   {
@@ -53,7 +54,7 @@ export const attraction = [
     address: "Sheikh Humaid Bin Rashid Al Nuaimi Street, Al Nakhil, Ajman, United Arab Emirates.",
     emirate: "Ajman",
     city: "Ajman",
-    image_url: "/images/ajman_corneche.webp",
+    image_url: "images/ajman_corneche.webp",
      amount: 0
   },
   {
@@ -64,7 +65,7 @@ export const attraction = [
     address: "Khor Al Beidah, Umm Al Quwain, United Arab Emirate",
     emirate: "Umm Al Quwain",
     city: "Umm Al Quwain",
-    image_url: "/image/mangroove_umm_al_quwain.webp",
+    image_url: "image/mangroove_umm_al_quwain.webp",
      amount: 0
   },
   {
@@ -75,7 +76,7 @@ export const attraction = [
     address:"Sheikh Mohammed Bin Zayed Road (E311), Umm Al Quwain, United Arab Emirates.",
     emirate: "Umm Al Quwain",
     city: "Umm Al Quwain",
-    image_url: "/images/dreamland-aqua-park-uaq.webp",
+    image_url: "images/dreamland-aqua-park-uaq.webp",
     amount: 130
   },
   {
@@ -86,7 +87,7 @@ export const attraction = [
     address: "Al Hisn Street, Al Hisn, Ras Al Khaimah, United Arab Emirates",
     emirate: "Ras Al Khaimah",
     city: "Ras Al Khaimah",
-    image_url: "/images/national_museum_ras.webp",
+    image_url: "images/national_museum_ras.webp",
     amount: 5
   },
 
@@ -98,7 +99,7 @@ export const attraction = [
     address: "Al Hisn Street, Al Hisn, Ras Al Khaimah, United Arab Emirates.",    
     emirate: "Fujairah",
     city: "Fujairah",
-    image_url: "/images/hisn_fort_fujariah.webp",
+    image_url: "images/hisn_fort_fujariah.webp",
     amount: 5
   },
   {
@@ -109,8 +110,10 @@ export const attraction = [
     address:"Al Bidya, Fujairah, United Arab Emirates.",
     emirate: "Fujairah",
     city: "Fujairah",
-    image_url: "/images/al-bidyah-mosque.webp",
+    image_url: "images/al-bidyah-mosque.webp",
     amount: 0
   },
  
 ];
+
+
