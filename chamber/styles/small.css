@@ -977,3 +977,137 @@ margin-bottom: 1rem;
 #results p{
     margin-bottom: 1rem;
 }
+
+
+
+
+/* Discover page */
+
+/* .places_containner{
+    display: grid;
+    gap: 2rem;
+    grid-template-columns:repeat(auto-fit, minmax(232.5px,1fr)); 
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+
+} */
+
+
+.places_containner{
+    display: grid;
+    gap: 2rem;
+    grid-template-columns:repeat(2, minmax(200px,1fr)); 
+    /* grid-template-columns:1fr 1fr;  */
+
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+
+}
+
+
+
+.places_containner div{
+    display: grid;
+    grid-template-areas: 
+    "image   title "
+    "image description"
+    "image  entry"    
+    "btn btn ";
+    background-color: #c9d6d5;
+    overflow: hidden;
+    border-radius: 1rem;
+    /* gap:1rem */
+    color: #000000;
+}
+
+
+
+.places_containner div:hover {
+	box-shadow: 0 0 50px #333;
+    
+}
+
+
+
+
+.places_containner div h2{
+    grid-area: title;
+    padding:1rem
+}
+
+.places_containner div img{
+    grid-area: image;
+    width: 100%;
+    height: 100%;
+    
+    object-fit: cover;
+}
+
+
+
+
+
+
+.places_containner div p{
+    grid-area: description;
+    padding:1rem;
+    
+}
+
+
+.places_containner div strong{
+    grid-area: entry;
+    display: inline-block;
+    padding:1rem;
+   
+
+}
+
+.places_containner div button{
+    grid-area: btn;
+    padding: 1rem;
+    background: #e4a85b;
+    transition: transform 0.3s ease;   
+    border: none;
+    
+}
+
+
+
+.places_containner div button:hover{      
+    background: #f1c07f;    
+    color: #770505;
+    
+}
+
+
+#visit{
+    text-align: center;
+    background-color: #c9d6d5;
+    padding: 1rem;
+    color: #000000;
+
+
+    
+
+}
+
+/* meddium size */
+
+@media screen and (max-width: 1024px){
+    .places_containner{        
+        grid-template-columns: 1fr;
+        
+    }
+     
+
+   
+
+}
+
+
+
+
+

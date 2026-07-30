@@ -16,8 +16,7 @@
         /* justify-content: space-between; */
         gap:0.5rem;
     }  
-  
-
+    
 
 
     .first-header-left{
@@ -149,6 +148,24 @@
         display: block;
 
      }  
+
+
+
+     .places_containner div{
+    display: grid;
+    grid-template-areas: 
+    " title "
+    "image "
+    "description"
+    "entry"
+    "btn ";
+    background-color: #c9d6d5;
+    overflow: hidden;
+    border-radius: 1rem;
+    /* gap:1rem */
+    color: #000000;
+}
+
 
 
      

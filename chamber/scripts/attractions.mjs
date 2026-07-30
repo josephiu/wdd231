@@ -1,4 +1,4 @@
-export const url = "https://github.com/josephiu/wdd231/edit/main/chamber/"
+export const url = "https://raw.githubusercontent.com/josephiu/wdd231/main/chamber/" // this is not needed because iam i ahave all photos in my computer,  but i added it anyways
 
 export const attraction = [
   {   
@@ -9,7 +9,7 @@ export const attraction = [
     address: "Sheikh Rashid Bin Saeed Street (Airport Road), Al Rawdah, Abu Dhabi, United Arab Emirates.",
     emirate: "Abu Dhabi",
     city: "Abu Dhabi",
-    image_url: "image/sheikh-zayed-grand-Mosque.webp",
+    image_url: "images/sheikh-zayed-grand-Mosque.webp",
     amount: 0
   },
    {
@@ -65,7 +65,7 @@ export const attraction = [
     address: "Khor Al Beidah, Umm Al Quwain, United Arab Emirate",
     emirate: "Umm Al Quwain",
     city: "Umm Al Quwain",
-    image_url: "image/mangroove_umm_al_quwain.webp",
+    image_url: "images/mangroove_umm_al_quwain.webp",
      amount: 0
   },
   {
